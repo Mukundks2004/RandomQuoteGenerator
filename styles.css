@@ -34,3 +34,13 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+button:active {
+    background-color: #0300b3;
+    transition: background-color 0.1s;
+}
+
+#author {
+    font-size: 1.2em;
+    color: #646464;
+}
