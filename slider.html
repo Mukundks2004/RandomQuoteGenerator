@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Page</title>
+    <link rel="stylesheet" href="sliderStyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What is life if not pain</h1>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide active" data-note="Blank">
+                    <img class="lana" id="audio-pic" src="lana.jpg"/>
+                </div>
+                <div class="slide" data-note="G">Don't</div>
+                <div class="slide" data-note="G">Make</div>
+                <div class="slide" data-note="A2">Me</div>
+                <div class="slide" data-note="B3">Sad</div>
+                <div class="slide" data-note="E">Don't</div>
+                <div class="slide" data-note="D">Make</div>
+                <div class="slide" data-note="B2">Me</div>
+                <div class="slide" data-note="A3">Cry</div>
+                <div class="slide" data-note="Blank">Click lana 💔</div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <a href="index.html" class="button">Too sad for me</a>
+    </div>
+
+    <script src="slider.js"></script>
+</body>
+</html>
