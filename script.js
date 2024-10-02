@@ -12,3 +12,7 @@ async function fetchQuote() {
         document.getElementById('quote').innerText = 'Could not fetch a new quote. Please try again later.';
     }
 }
+
+document.getElementById("mi-casa").addEventListener("click", function() {
+    window.location.href = "./slider.html";
+});
