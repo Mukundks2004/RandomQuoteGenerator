@@ -26,17 +26,17 @@ button {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #ff0000;
     color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f53030;
 }
 
 button:active {
-    background-color: #0300b3;
+    background-color: #690404;
     transition: background-color 0.1s;
 }
 
