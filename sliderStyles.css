@@ -52,37 +52,45 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    background-color: #007bff;
+    background-color: #92bff0;
     color: white;
     border-radius: 30px;
 }
 
 .slide:nth-child(2) {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
 
 .slide:nth-child(3) {
-    background-color: #004a99; 
+    background-color: #0056b3;
 }
 
 .slide:nth-child(4) {
-    background-color: #004080;
+    background-color: #004a99; 
 }
 
 .slide:nth-child(5) {
-    background-color: #003366; 
+    background-color: #004080;
 }
 
 .slide:nth-child(6) {
-    background-color: #00264d;
+    background-color: #003366; 
 }
 
 .slide:nth-child(7) {
-    background-color: #001a33; 
+    background-color: #00264d;
 }
 
 .slide:nth-child(8) {
+    background-color: #001a33; 
+}
+
+.slide:nth-child(9) {
     background-color: #000d1a;
+}
+
+.slide:nth-child(10) {
+    background-color: #000000;
 }
 
 
@@ -108,4 +116,10 @@ button.next {
 
 button:hover {
     background-color: rgba(255, 255, 255, 1);
+}
+
+.lana {
+    max-width: 100%;
+    max-height: 90%;
+    border-radius: 15px;
 }
